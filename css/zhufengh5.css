@@ -1,0 +1,139 @@
+html{
+    font-size: 100px;
+}
+img{
+    display: block;
+}
+.header{
+    width: 100%;
+    height: 1.12rem;
+    background-color: #252525;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 2.1rem;
+    height: .64rem;
+    background: url(../image/Layer15@2x.png) no-repeat;
+    background-size: contain;
+    margin:.24rem 0 0 .16rem;
+}
+.menu{
+    float: right;
+    width:.36rem;
+    height: .32rem;
+    background: url(../image/menu@2x.png)  no-repeat;
+    background-size: cover;
+    margin-top: .4rem;
+    margin-right: .23rem;
+}
+ .swiper-slide img{
+    width: 100%;
+}
+.swiper-pagination-bullet-active{
+    background: #fff;
+}
+.content{
+    margin-top:.3rem;
+    padding: 0 .2rem;
+ 
+}
+.item{
+    box-shadow: 0 .05rem .06rem 0px rgba(178, 178, 178, 0.75);
+    border-radius: .05rem;
+    margin-bottom: .11rem;
+}
+.item img{
+    width: 100%;
+    border-radius: .05rem .05rem 0 0;
+}
+.item .txt {
+    font-size: .28rem;
+    font-weight: 400;
+    line-height: .24rem;
+    text-align: center;
+    padding: .3rem;
+   
+}
+.item .txt h2{color:#777;
+    margin-bottom: .22rem;
+    font-size: .28rem;
+    font-weight: 400
+}
+.item .txt p{
+    color: #ed3a3a;
+
+
+}
+.title img{
+    display: inline-block;
+    width: .29rem;
+    height: .35rem;
+    vertical-align: middle;
+    margin-right: .12rem;
+}
+.title p{
+    display: inline-block;
+    font-size: .26rem;
+    font-weight: 400;
+    vertical-align: middle;
+}
+.title{
+    width: 100%;
+    margin-bottom: .37rem;
+}
+.footer{
+    width: 100%;
+    height: 1.07rem;
+   border-top:1px #D5D5D5 solid;
+   margin-top: .74rem;
+   padding: 23px;
+
+  
+}
+.footer-nav{
+    margin-left:20px;
+}
+.footer li{
+    width: 33.33%;
+    height: .67rem;
+    line-height: 36px;
+    float: left;
+   
+  
+}
+.footer li .icon{
+    display: block;
+    width:46px ;
+    height:46px;
+   background-image: url(../image/Sprite.png);
+   background-repeat: no-repeat;
+   
+   
+}
+.footer .index{
+    
+    background-position: 0 0;
+    
+}
+.footer .myCourse{
+   
+    background-position: -214px 0;
+}
+.footer .myCenter{
+   
+    background-position: -426px 0;
+}
+
+.footer li .txt{
+    display: block;
+    font-size:16px;
+    font-family:Microsoft YaHei;
+    font-weight:bold;
+    color:rgba(171,171,171,1);
+}
+
+span:nth-child(2){
+    margin-left: -8px;
+}
+

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>珠峰H5手机端</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/zhufengh5.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/swiper.min.js">
+
+</head>
+
+<body>
+    <!-- h5新增的标签 header footer nav section -->
+    <header class="header">
+        <h1 class="logo">
+            <a href="#"></a>
+        </h1>
+        <div class="menu">
+
+        </div>
+    </header>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+
+                <img src="image/banner1@2x.png" alt=""></div>
+            <div class="swiper-slide"><img src="image/banner2@2x.png" alt=""></div>
+            <div class="swiper-slide">
+                <img src="image/banner3@2x.png" alt=""></div>
+            <div class="swiper-slide"><img src="image/banner4@2x.png" alt=""></div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+
+        <!-- 如果需要导航按钮 -->
+        <!-- <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div> -->
+
+        <!-- 如果需要滚动条 -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+    </div>
+    <main class="content">
+        <section class="title">
+            <img src="image/book.png" alt="">
+            <p>全部课程</p>
+        </section>
+        <section class="item">
+            <div class="pic"><img src="image/banner1@2x.png" alt=""></div>
+            <div class="txt">
+                <h2>Vure.js从理论精讲到项目实战课程</h2>
+                <p>￥599.00元</p>
+            </div>
+        </section>
+        <section class="item">
+            <div class="pic"><img src="image/pic2.png" alt=""></div>
+            <div class="txt">
+                <h2>Vure.js从理论精讲到项目实战课程</h2>
+                <p>￥599.00元</p>
+            </div>
+        </section>
+        <section class="item">
+            <div class="pic"><img src="image/pic3.png" alt=""></div>
+            <div class="txt">
+                <h2>Vure.js从理论精讲到项目实战课程</h2>
+                <p>￥599.00元</p>
+            </div>
+        </section>
+        <section class="item">
+            <div class="pic"><img src="image/pic4.png" alt=""></div>
+            <div class="txt">
+                <h2>Vure.js从理论精讲到项目实战课程</h2>
+                <p>￥599.00元</p>
+            </div>
+        </section>
+        <section class="item">
+            <div class="pic"><img src="image/pic5.png" alt=""></div>
+            <div class="txt">
+                <h2>Vure.js从理论精讲到项目实战课程</h2>
+                <p>￥599.00元</p>
+            </div>
+        </section>
+        <section class="item">
+            <div class="pic"><img src="image/pic6.png" alt=""></div>
+            <div class="txt">
+                <h2>Vure.js从理论精讲到项目实战课程</h2>
+                <p>￥599.00元</p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <ul class="footer-nav">
+            <li>
+                <i class="icon index"></i>
+                <span class="txt" style=" margin-left: 10px;">首页</span>
+            </li>
+            <li>
+                <i class="icon myCourse"></i>
+                <span class="txt">我的课程</span>
+            </li>
+            <li>
+                <i class="icon myCenter"></i>
+                <span class="txt">个人中心</span>
+            </li>
+
+        </ul>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="css/swiper.min.js"></script>
+    <script type="text/javascript">
+        //动态判定rem
+        function refreshRem() {
+            var desW = 640,
+                winW = document.documentElement.clientWidth,
+                ratio = winW / desW;
+            document.documentElement.style.fontSize = ratio * 100 + 'px';
+        }
+        refreshRem();
+        window.addEventListener('resize', refreshRem);
+
+
+        var mySwiper = new Swiper('.swiper-container', {
+            loop: true, // 循环模式选项
+            autoplay: {
+
+                autoplay: {
+                    delay: 2000,
+                    stopOnLastSlide: false,
+                    disableOnInteraction: false,
+                },
+            },
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // 如果需要前进后退按钮
+            //   navigation: {
+            //     nextEl: '.swiper-button-next',
+            //     prevEl: '.swiper-button-prev',
+            //   },
+
+            // 如果需要滚动条
+            //   scrollbar: {
+            //     el: '.swiper-scrollbar',
+            //   },
+        })
+    </script>
+</body>
+
+</html>
